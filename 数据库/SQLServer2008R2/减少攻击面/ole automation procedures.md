@@ -2,7 +2,7 @@ SQLServer可以通过Ole Automation的存储过程调用外部服务，操作文
 
 内置的存储过程
 
-![1547452608438](C:\Users\fandashen\AppData\Roaming\Typora\typora-user-images\1547452608438.png)
+![1547452608438](assets/1547452608438.png)
 
 默认情况下Ole Automation procedures组件是禁止的。SQL Server阻止了对组件'Ole Automation Procedures'的过程'sys.sp_OACreate'的访问。系统管理员可以通过sp_configure启用“Ole Automation procedures”。
 

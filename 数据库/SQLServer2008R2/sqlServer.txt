@@ -3,7 +3,8 @@ sqlserver 2008
 10.10.100.220
 
 Server Pack 操作系统或软件中比较大的而且重要的升级补丁（补丁集合）
-Windows server 2008是基于Windows vista 的服务器系统,有32位和64位两个版本Windows server 2008 R2是基于Windows 7的服务器操作系统只有64位版。Windows server 2008 R2并不是2008的升级版
+Windows server 2008是基于Windows vista 的服务器系统,有32位和64位两个版本
+Windows server 2008 R2是基于Windows 7的服务器操作系统只有64位版。Windows server 2008 R2并不是2008的升级版
 
 RTM是没有打过SP补丁的版本
 
