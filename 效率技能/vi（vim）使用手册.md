@@ -38,7 +38,7 @@ $ vi test.txt
 
 :q! 强制离开并放弃编辑的文件
 
-
+![vi-vim-cheat-sheet-sch](assets/vi-vim-cheat-sheet-sch.gif)
 
 #### 命令模式移动命令
 
@@ -158,4 +158,20 @@ vi 1.txt 2.txt 3.txt
 | Ctrl+^ | 快速回到切换前的文件 | 即是ctrl+shift+6 |          |
 
 
+
+拓展：
+
+vim和vi都是多模式编辑器，不同的是vim是vi的升级版，不仅兼容vi的所有命令，而且有一些新的特性。
+
+vim的优势：
+
+1.多级撤销
+
+2.易用性
+
+3.语法加亮
+
+4.可视化操作
+
+5.对vi完全兼容
 
