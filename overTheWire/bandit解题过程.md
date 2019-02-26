@@ -1,8 +1,8 @@
 题目地址：http://overthewire.org/wargames/
 
-#### level0-level1
-
 已知HOST：bandit.labs.overthewire.org  PORT：2220  账号：bandit0 密码bandit0
+
+#### level0-level1
 
 通过提示查看home下的readme文件，获取bandit1的密码
 
@@ -159,7 +159,7 @@ nc localhost 30000
 
 BfMYroe26WYalil77FoDi9qh59eK5xNr
 
-level15-level16
+#### level15-level16
 
 通过openssl s_client
 
@@ -180,6 +180,10 @@ nmap -p31000-32000 localhost
 ```
 
 再通过openssl监听端，其中一个获得密钥
+
+```
+openssl s_client -connect localhost:30001 -quiet
+```
 
 -----BEGIN RSA PRIVATE KEY-----
 MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
@@ -218,7 +222,7 @@ grep -vFf password.old password.new
 或者 diff password.old password.new
 ```
 
-注：new文件放后面，不用弄反
+注：new文件放后面，不要弄反
 
 kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
 
