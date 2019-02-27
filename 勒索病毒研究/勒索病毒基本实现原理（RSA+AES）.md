@@ -121,7 +121,7 @@ with open('C:\Users\\fandashen\Desktop\\ransom\\attack\master-private.pem') as f
     Dkey = cipher.decrypt(base64.b64decode(t2),'ERROR') #解密得到对称密钥
 ```
 
-- 再通过对称密钥对加密过的文件进行解密，得到原来的文件内容
+- 再通过对称密钥对加密过的文件内容进行解密，得到原来的文件内容
 
 ```
 cryptor = AES.new(Dkey, AES.MODE_CBC, Dkey)
